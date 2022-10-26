@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"info.kgeorgiy.ja.danilin.implementor","l":"Implementor.ClassGenerator"},{"p":"info.kgeorgiy.ja.danilin.implementor","l":"Implementor"}]

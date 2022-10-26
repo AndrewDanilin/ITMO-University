@@ -1,0 +1,1 @@
+javadoc -private -d ..\javadoc -cp ..\..\java-advanced-2022\artifacts\info.kgeorgiy.java.advanced.implementor.jar ..\java-solutions\info\kgeorgiy\ja\danilin\implementor\Implementor.java ^
