@@ -48,6 +48,7 @@
 ### Реализация: [Scanner](https://github.com/AndrewDanilin/ITMO-University/tree/main/prog-intro/java-solutions/scanner)
 
 Домашнее задание 7. Разметка
+----
 
 1.  Разработайте набор классов для текстовой разметки.
 2.  Класс `Paragraph` может содержать произвольное число других элементов разметки и текстовых элементов.
@@ -82,3 +83,10 @@
 7.  Разработанные классы должны находиться в пакете `markup`.
 
 ### Реализация: [Markup](https://github.com/AndrewDanilin/ITMO-University/tree/main/prog-intro/java-solutions/markup)
+
+Домашнее задание 8. Арифметические выражения
+----
+
+Нужно было разработать набор классов для вычисления арифметических выражений, которые могут содержать переменные.
+
+### Реализация: [Expression](https://github.com/AndrewDanilin/ITMO-University/tree/main/prog-intro/java-solutions/expression)
