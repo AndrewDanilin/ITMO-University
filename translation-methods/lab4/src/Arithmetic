@@ -1,0 +1,47 @@
+grammar Arithmetic;
+
+: e ;
+
+e [int val] -> t ePrime<t0.val> { $res.val = $ePrime1.val; } ;
+
+ePrime <int acc> [int val] ->
+      PLUS t { $res.val = acc + $t1.val; } ePrime<res.val> { $res.val = $ePrime3.val; }
+    | MINUS t { $res.val = acc - $t1.val; } ePrime<res.val> { $res.val = $ePrime3.val; }
+    | EPS { $res.val = acc; }
+    ;
+
+t [int val] -> m tPrime<m0.val> { $res.val = $tPrime1.val; } ;
+
+tPrime <int acc> [int val] ->
+      MUL m { $res.val = acc * $m1.val; } tPrime<res.val> { $res.val = $tPrime3.val; }
+    | DIV m { $res.val = acc / $m1.val; } tPrime<res.val> { $res.val = $tPrime3.val; }
+    | EPS { $res.val = acc; }
+    ;
+
+m [int val] ->
+      MINUS m { $res.val = -$m1.val; }
+    | p { $res.val = $p0.val; }
+    ;
+
+p [int val] -> f pPrime<f0.val> { $res.val = $pPrime1.val; } ;
+
+pPrime <int acc> [int val] ->
+      POW p { $res.val = (int) Math.pow(acc, $p1.val); }
+    | EPS { $res.val = acc; }
+    ;
+
+
+f [int val] ->
+      DIGIT { $res.val = Integer.parseInt($DIGIT0.text); }
+    | OPEN e CLOSE { $res.val = $e1.val; }
+    ;
+
+
+POW   -> '**' ;
+DIV   -> '/' ;
+MUL   -> '*' ;
+PLUS  -> '+' ;
+MINUS -> '-' ;
+DIGIT -> "[0-9]+" ;
+OPEN  -> '(' ;
+CLOSE -> ')' ;

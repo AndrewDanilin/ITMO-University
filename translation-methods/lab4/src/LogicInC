@@ -1,0 +1,47 @@
+grammar LogicInC;
+
+: f ;
+
+f -> t fPrime ;
+
+fPrime ->
+      OR t fPrime
+    | EPS
+    ;
+
+t -> g tPrime ;
+
+tPrime ->
+      XOR g tPrime
+    | EPS
+    ;
+
+g -> n gPrime ;
+
+gPrime ->
+      AND n gPrime
+    | EPS
+    ;
+
+n ->
+      NOT n
+    | p
+    ;
+
+p ->
+      OPEN f CLOSE
+    | VAR
+    ;
+
+NOT   -> '!' ;
+OR    -> '|' ;
+AND   -> '&' ;
+XOR   -> '^' ;
+OPEN  -> '(' ;
+CLOSE -> ')' ;
+VAR   -> "[a-zA-Z]+" ;
+
+
+
+
+

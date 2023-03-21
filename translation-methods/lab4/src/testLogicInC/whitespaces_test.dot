@@ -1,0 +1,47 @@
+digraph {
+	0 [label="f"]
+	0 -> 1
+	0 -> 2
+	1 [label="t"]
+	1 -> 3
+	1 -> 4
+	2 [label="fPrime"]
+	2 -> 5
+	2 -> 6
+	2 -> 7
+	3 [label="g"]
+	3 -> 8
+	3 -> 9
+	4 [label="tPrime"]
+	4 -> 10
+	5 [label="|"]
+	6 [label="t"]
+	6 -> 11
+	6 -> 12
+	7 [label="fPrime"]
+	7 -> 13
+	8 [label="n"]
+	8 -> 14
+	9 [label="gPrime"]
+	9 -> 15
+	10 [label="EPS"]
+	11 [label="g"]
+	11 -> 16
+	11 -> 17
+	12 [label="tPrime"]
+	12 -> 18
+	13 [label="EPS"]
+	14 [label="p"]
+	14 -> 19
+	15 [label="EPS"]
+	16 [label="n"]
+	16 -> 20
+	17 [label="gPrime"]
+	17 -> 21
+	18 [label="EPS"]
+	19 [label="a"]
+	20 [label="p"]
+	20 -> 22
+	21 [label="EPS"]
+	22 [label="b"]
+}
