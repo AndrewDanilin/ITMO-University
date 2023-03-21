@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">homework6</string>
+    <string name="from">from</string>
+    <string name="some">some</string>
+    <string name="to">to</string>
+    <string name="close">close</string>
+    <string name="back">Back</string>
+    <string name="image_of_message">Image of message</string>
+    <string name="sending">sending…</string>
+    <string name="sent">sent</string>
+    <string name="empty" />
+    <string name="no_new_messages">No new messages</string>
+    <string name="your_message">Your message…</string>
+    <string name="no_permission_to_gallery">No permission to gallery</string>
+    <string name="image_downloading_failed">image downloading failed</string>
+    <string name="attach_picture">Attach picture</string>
+    <string name="scroll_to_last_message">Scroll to last message</string>
+    <string name="something_went_wrong">Something went wrong. Try again later.</string>
+    <string name="failed_to_connect_to_server">Failed to connect to server. Please, check your internet connection.</string>
+    <string name="attach_image">Attach image</string>
+    <string name="failed_send_image">Failed to send image. Check your internet connection</string>
+    <string name="failed_send_text_message">Failed to send image. Check your internet connection</string>
+    <string name="very_big_picture">Very big picture</string>
+    <string name="big_picture">big_picture</string>
+    <string name="save">SAVE</string>
+    <string name="failed_to_save_image">Failed to save image</string>
+    <string name="image_successfully_saved">Image successfully saved</string>
+</resources>

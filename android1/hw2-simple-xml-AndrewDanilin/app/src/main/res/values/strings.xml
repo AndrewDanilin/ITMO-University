@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">homework2</string>
+    <string name="email">e-mail</string>
+    <string name="password">password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="show_password">show password</string>
+    <string name="message_incorrect_login_spaces">Login mustn\'t contain spaces</string>
+    <string name="message_incorrect_login_empty">Login is empty</string>
+    <string name="message_incorrect_password_empty">Password is empty</string>
+    <string name="message_incorrect_login_or_password">Incorrect login or password</string>
+    <string name="empty">""</string>
+    <string name="switch_theme">Switch theme</string>
+    <string name="dark_mode_is_on">Dark mode is on</string>
+    <string name="dark_mode_is_off">Dark mode is off</string>
+</resources>

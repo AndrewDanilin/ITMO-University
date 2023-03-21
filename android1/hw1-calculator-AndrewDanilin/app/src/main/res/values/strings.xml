@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">homework1</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="divide">/</string>
+    <string name="C">C</string>
+    <string name="CE">CE</string>
+    <string name="multiply">*</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+    <string name="equal">=</string>
+    <string name="dot">.</string>
+    <string name="delete">\u232b</string>
+    <string name="copy">COPY</string>
+    <string name="paste">PASTE</string>
+    <string name="whitespace"> </string>
+    <string name="division_by_zero">DIVISION BY ZERO</string>
+    <string name="incorrect_input">INCORRECT INPUT</string>
+    <string name="nothing_to_paste">NOTHING TO PASTE</string>
+    <string name="result_was_saved">RESULT WAS SAVED</string>
+</resources>

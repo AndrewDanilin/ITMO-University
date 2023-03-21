@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Домашнаяя работа 2</string>
+    <string name="email">эл. почта</string>
+    <string name="password">пароль</string>
+    <string name="log_in">войти</string>
+    <string name="show_password">показать пароль</string>
+    <string name="message_incorrect_login_spaces">Логин не должен содержать пробелов</string>
+    <string name="message_incorrect_login_empty">Логин пустой</string>
+    <string name="message_incorrect_password_empty">Пароль пустой</string>
+    <string name="message_incorrect_login_or_password">Неверный логин или пароль</string>
+    <string name="empty" />
+    <string name="switch_theme">Переключить тему</string>
+    <string name="dark_mode_is_on">Тёмная тема включена</string>
+    <string name="dark_mode_is_off">Тёмная тема выключена</string>
+</resources>

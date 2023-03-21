@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">homework3</string>
+    <string name="no_permission_to_read_contacts">No permission to read contacts</string>
+    <string name="n_contacts_founded">contacts founded</string>
+</resources>

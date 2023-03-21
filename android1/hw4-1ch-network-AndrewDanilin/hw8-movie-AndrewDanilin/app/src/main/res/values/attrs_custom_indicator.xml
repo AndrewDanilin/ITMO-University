@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="CustomIndicator">
+        <attr name="rectanglesColor" format="color" />
+    </declare-styleable>
+</resources>

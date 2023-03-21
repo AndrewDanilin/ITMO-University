@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/chatContainerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="@string/channels"
+        android:name="com.andrewdanilin.homework7.fragments.ChatFragment"
+        tools:layout="@layout/fragment_channels" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

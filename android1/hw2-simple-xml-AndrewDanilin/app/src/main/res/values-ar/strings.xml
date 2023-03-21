@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">الواجب المنزلي 2</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمه السر</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="show_password">عرض كلمة المرور</string>
+    <string name="message_incorrect_login_spaces">يجب ألا يحتوي تسجيل الدخول على مسافات</string>
+    <string name="message_incorrect_login_empty">تسجيل الدخول فارغ</string>
+    <string name="message_incorrect_password_empty">كلمة المرور فارغة</string>
+    <string name="message_incorrect_login_or_password">تسجيل الدخول أو كلمة سر خاطئة</string>
+    <string name="empty" />
+    <string name="switch_theme">تبديل الموضوع</string>
+    <string name="dark_mode_is_on">الوضع الداكن مفعّل</string>
+    <string name="dark_mode_is_off">تم إيقاف الوضع الداكن</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/channelsContainerView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:name="com.andrewdanilin.homework7.fragments.ChannelsFragment"
+        android:tag="@string/channels"
+        tools:layout="@layout/fragment_channels" />
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/chatContainerView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:name="com.andrewdanilin.homework7.fragments.ChatFragment"
+        android:tag="@string/chat"
+        tools:layout="@layout/fragment_chat"/>
+
+
+</LinearLayout>
